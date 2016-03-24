@@ -20,8 +20,15 @@
 		{requires: name, pass}"</p>
 	<p>and "http://se2firstapp-softwareeng2.rhcloud.com/FCISquare/rest/updatePosition ---
 		{requires: id, lat, long}"</p>
-	<p> All parameters are post parameters </p>
+	<p> All parameters are post parameters </p> 
+	<form action = "dofollow" method = "post" >
 	
+	Email <input type="text" name = "email" /> <br>
+	<input type="submit" value = "follow" /> 
+
+
+
+</form>
 	<p>you should implement Follow,	UnFollow, getFollowers and getLastPositionOfUser services </p>
 </body>
 </html>
