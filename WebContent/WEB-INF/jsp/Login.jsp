@@ -6,6 +6,7 @@
 <html>
 
 <head>
+<<<<<<< HEAD
 <title>FCISquare Application</title>
 <link rel="stylesheet" href="/FCISquareApp/stylesheet/login.css">
 </head>
@@ -35,6 +36,30 @@
 			<a href="/FCISquareApp/app/signUp"> here</a>
 		</h2>
 	</div>
+=======
+<title>
+	FCISquare Application
+</title>
+
+</head>
+
+<body>
+
+<center><h1>Welcome to FCI Square</h1>
+		<h1> Login now</h1>
+		<h2> if you don't have an account you can signup from <a href = "/FCISquareApp/app/signUp">here</a> </h2>
+		</center>
+
+<form action = "doLogin" method = "post" >
+	
+	Email <input type="text" name = "email" /> <br>
+	Password: <input type="password" name = "pass" /> <br>
+	<input type="submit" value = "Login" /> 
+
+
+
+</form>
+>>>>>>> 3a7cab454d0e0e3232dcf96c9454550fd7c1acbe
 
 </body>
 

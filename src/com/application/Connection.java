@@ -33,7 +33,11 @@ public class Connection {
 			BufferedReader reader = new BufferedReader(new InputStreamReader(
 					connection.getInputStream()));
 
+<<<<<<< HEAD
 			while ((line = reader.readLine()) != null) { 
+=======
+			while ((line = reader.readLine()) != null) {
+>>>>>>> 3a7cab454d0e0e3232dcf96c9454550fd7c1acbe
 				retJson += line;
 			}
 			return retJson;

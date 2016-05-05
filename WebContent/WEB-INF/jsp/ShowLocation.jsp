@@ -5,9 +5,13 @@
 <head>
 <meta http-equiv="Content-Type"
 	content="text/html; charset=windows-1256">
+<<<<<<< HEAD
 <title>Show Location</title>
 <link rel="stylesheet" type="text/css"
 	href="/FCISquareApp/stylesheet/style.css">
+=======
+<title>FCISquare Application</title>
+>>>>>>> 3a7cab454d0e0e3232dcf96c9454550fd7c1acbe
 <script src="http://maps.googleapis.com/maps/api/js">
 	
 </script>
