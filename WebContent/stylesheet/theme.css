@@ -1,0 +1,85 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #d7d9d8;
+	/*	background-image: url("/FCISquareApp/pic/bg.jpg"); */
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	border-left-style: : 20px;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #000000;
+	border-radius: 5px 5px;
+	background-color: #ffffff;
+	display: table-footer-group;
+	width: 300px;
+	padding: 25px;
+	border: 25px solid navy;
+	margin: 25px;
+	padding: 5px;
+}
+
+h3 {
+	color: #180df2;
+	font: pacifico;
+	font-size: 20px;
+	font-style: italic;
+}
+
+input.one {
+	border-style: groove;
+	border-width: medium;
+	color: black;
+	font: pacifico;
+	font-size: 19px;
+}
+
+input {
+	border-style: ridge;
+	border-color: black;
+}
+
+p {
+	color: #180df2;
+	font-style: normal;
+	font-size: 25px;
+	font-family: serif;
+}
+
+h2 {
+	top: -40px;
+	font-style: italic;
+	color: #ffffff;
+	font: pacifico;
+	font-size: 60px;
+	background-color: #000000;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	
+    border-down-left-radius: 15px;
+	border-down-right-radius: 15px;
+	height: 200px;*/
+}
+
+button[name="submit"]:hover {
+	color: #180df2;
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: large;
+}
+
+p[name="click"] a:HOVER{
+	font-family:cursive;
+	font-size: 25px;
+	color: white;
+	font-weight:bolder;
+	
+}
+
+button[name="ab"]:hover {
+	color: #180df2;
+	border-bottom-style: outset;
+	border-bottom-color: green;
+}

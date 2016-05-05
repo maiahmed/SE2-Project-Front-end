@@ -1,0 +1,323 @@
+body {
+	background-image: url("/FCISquareApp/pic/mainBG.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+	background: #389ac8;
+	float: left;
+	margin-top: -30px;
+	margin-left: -8px;
+	padding: 0px;
+	width: 1400px;
+	position: fixed;
+	clear: both;
+	z-index: 9999;
+}
+
+h1 {
+	color: #ffffff;
+	padding-left: 20px;
+	font-family: Berkshire Swash;
+	display: inline-block;
+}
+
+.search {
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: -300px;
+	margin-top: -20px;
+}
+
+header input {
+	padding-right: 100px;
+}
+
+header img {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	padding-left: 5px;
+	padding-top: 30px;
+	position: absolute;
+}
+
+h3 {
+	display: inline-block;
+	padding-left: 400px;
+	font-family: Open Sans Condensed;
+	color: #ffffff;
+}
+
+button {
+	background-color: #389ac8;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Open Sans Condensed;
+	font-weight: bold;
+}
+
+.home {
+	width: 40px;
+	/*padding-top: px;*/
+	height: 40px;
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: 27px;
+	position: absolute;
+}
+
+.log {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	padding-left: 80px;
+	padding-top: 27px;
+	position: absolute;
+}
+
+.sideBar {
+	/* 	background-color: #f5fafc;  */
+	display: inline-block;
+	position: absolute;
+	/* 	width: 300px ; */
+	padding-top: 10px;
+	padding-left: -10px;
+}
+
+.checkinOptions {
+	background-color: transparent;
+	display: inline-block;
+	position: relative;
+	/* 	width: */
+	height: 70px;
+	margin-left: 400px;
+	padding-top: 100px;
+	font-family: Open Sans Condensed;
+	color: #389ac8;
+}
+
+.option1 {
+	padding-left: 100px;
+	width: 40px;
+	height: 10px;
+}
+
+.sortStyle1 {
+	color: #389ac8;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.option2 {
+	width: 40px;
+	height: 10px;
+	padding-left: 200px;
+	margin-left: 70px;
+}
+
+.sortStyle2 {
+	color: #389ac8;
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 3px;
+}
+
+.ShowCheckins {
+	margin-left: 30px;
+}
+
+.sideBar table {
+	background-color: transparent;
+	/* 	background-color: #f4fafb; */
+	border-spacing: 50px;
+	padding-left: 10px;
+	padding-top: 30px;
+}
+
+.sideBar td {
+	height: 60px;
+	width: 60px;
+}
+
+.sideBar td img {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	display: block;
+}
+
+.posts table {
+	margin-top: 50px;
+	margin-left: 430px;
+	border-spacing: 20px;
+}
+
+.myCheckinsTitle {
+	font-family: Berkshire Swash;
+	color: #389ac8;
+	font-size: 50px;
+	width: 1000px;
+}
+
+.postX {
+	background-color: #f5fafc;
+	font-family: Open Sans Condensed;
+	font-size: 20px;
+	color: #389ac8;
+	width: 500px;
+	height: 50px;
+	padding-left: 10px;
+}
+
+.LikesDetails {
+	margin-top: 50px;
+	margin-left: 430px;
+	border-spacing: 0px;
+}
+
+.detail {
+	color: #389ac8;
+	font-size: 30px;
+	font-family: Open Sans Condensed;
+	font-weight: bold;
+	width: 300px;
+}
+
+.LikesNames {
+	background-color: #f5fafc;
+	font-family: Open Sans Condensed;
+	font-size: 20px;
+	color: #000;
+	width: 70px;
+	height: 50px;
+	padding-left: 10px;
+}
+
+.CommentsDetails {
+	margin-top: 50px;
+	margin-left: 430px;
+	border-spacing: 20px;
+}
+
+.commentOwner {
+	font-family: Open Sans Condensed;
+	font-size: 20px;
+	color: #000;
+	width: 10px;
+	height: 50px;
+}
+
+.commentText {
+	background-color: #f5fafc;
+	font-family: Open Sans Condensed;
+	font-size: 20px;
+	color: #000;
+	width: 400px;
+	height: 50px;
+	padding-left: 10px;
+}
+
+.checkinActions {
+	/* 	background-color: #f5fafc; */
+	font-family: Open Sans Condensed;
+	font-size: 20px;
+	color: #389ac8;
+	width: 500px;
+	height: 100px;
+	padding-left: 10px;
+	margin-left: 430px;
+}
+
+.submitVal {
+	background-color: #389ac8;
+	border: none;
+	color: white;
+	/*     padding: 10px 25px; */
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Open Sans Condensed;
+	font-weight: bold;
+	width: 70px;
+	height: 30px;
+}
+
+.HistoryStyle {
+	border-radius: 30%;
+	width: 50px;
+	height: 40px;
+	font-family: Berkshire Swash;
+}
+
+.checkinPage {
+	width: 300px;
+	height: 300px;
+	margin-left: 530px;
+	margin-top: 20px;
+}
+
+.IN {
+	color: #389ac8;
+	margin-top: 80px;
+}
+
+.chechForm {
+	margin-left: 550px;
+	margin-top: 10px;
+}
+
+.Bcheckin {
+	margin-left: 70px;
+	margin-top: 20px;
+}
+
+.Nlable {
+	font-family: Open Sans Condensed;
+}
+
+.Aplace {
+	font-family: Open Sans Condensed;
+	color: #3b91b9; margin-left : 400px;
+	padding-right: 400px;
+	margin-left: 400px;
+}
+
+.lastPosition {
+	width: 500px;
+	height: 500px;
+	margin-left: 400px;
+	margin-top: 100px;
+}
+
+.lastPositon1 {
+	margin-top: -343px;
+	padding-left: 513px;
+}
+
+.getLocation {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #d80027;
+}
+
+.getLocation:hover {
+	background-color: #3b91b9;
+}
+
+.FollowersList {
+	margin-top: 200px;
+}
+
+.Notifi {
+	position: absolute;
+	margin-top: 100px;
+}
